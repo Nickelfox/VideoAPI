@@ -88,6 +88,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'Source/**/*'
 
-  s.dependency 'APIClient', :git => 'https://github.com/Nickelfox/VideoAPI/tree/develop'
+  s.dependency 'APIClient', :git => 'https://github.com/Nickelfox/APIClient'
 
 end
