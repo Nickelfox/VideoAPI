@@ -1,0 +1,6 @@
+framework module Pods_VideoAPI {
+  umbrella header "Pods-VideoAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
