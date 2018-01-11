@@ -8,6 +8,9 @@
 
 import Foundation
 import APIClient
+import JSONParsing
+import SwiftyJSON
+import Alamofire
 
 public struct AuthHeaders: AuthHeadersProtocol {
     let accessToken: String

@@ -8,6 +8,7 @@
 
 import Foundation
 import APIClient
+import JSONParsing
 
 private let errorKey = "error"
 

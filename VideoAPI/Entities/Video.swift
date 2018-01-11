@@ -8,6 +8,7 @@
 
 import Foundation
 import APIClient
+import JSONParsing
 import CoreData
 
 fileprivate let context = CoreDataStack.shared.persistentContainer.viewContext
