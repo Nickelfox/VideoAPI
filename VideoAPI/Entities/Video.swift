@@ -76,6 +76,17 @@ extension Video {
         }
     }
     
+    public static func cachedVideos() -> [Video] {
+        
+        do {
+            let videos = try context.fetch(Video.fetchRequest()) as! [Video]
+            return videos
+        } catch {
+            return []
+        }        
+    }
+
+    
     static func clearCoreData() {
         let req = NSFetchRequest<NSFetchRequestResult>(entityName: "Video")
         let deleteReq = NSBatchDeleteRequest(fetchRequest: req)
